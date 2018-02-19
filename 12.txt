@@ -1,0 +1,33 @@
+java.lang.ClassNotFoundException 无法找到指定的类
+java.io.IOException   io异常
+java.lang.NullPointerException 空指针异常
+java.lang.ArrayStoreExcetption 数组存放类型错误异常
+java.lang.ClassCastException 转型错误异常
+java.lang.IndexOutOfBoundsException 数组越界异常
+
+a=1
+b=1
+times=30
+
+public static int a(int a,int b,int times){
+
+
+
+
+  int temp=a+b;
+  times--;
+   
+if(times==0){
+throw new StopMsgException();
+}
+ return  a(b,temp,times) 
+}
+
+
+private 私有，只有本类可以访问。
+protected 保护，本包，外包只有子类可以访问
+默认 只有同包可以访问
+public 所有类
+
+
+git
